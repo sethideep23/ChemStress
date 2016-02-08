@@ -1,0 +1,120 @@
+/**/
+@font-face {
+	src: url('../../assets/fonts/Lato/Lato-Medium.woff');
+	font-family: Lato;
+}
+@font-face {
+	src: url('../assets/fonts/Lato/Lato-Light.woff');
+	font-family: Lato-Light;
+}
+body {
+	background-color: #e74c3c;
+	font-family: Lato;
+}
+input {
+	cursor: default;
+}
+.page_header {
+	text-align: center;
+	color: white;
+	font-size: 65px;
+	-webkit-user-select: none;
+	cursor: default;
+}
+.student_input {
+	position: absolute;
+	width: 70%;
+	left: 14.25%;	
+	font-family: Lato-Light;
+	top: 30%;
+	border: 1.5px solid white;
+	background: transparent;
+	border-radius: 28.5px;
+	font-size: 45px;
+	height: 60px;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	color: white;
+}
+.student_input::-webkit-input-placeholder {
+	font-family: Lato-Light;
+	font-size: 40px;
+	color: white;
+}
+.student_input:focus {
+	outline: none;
+	color: white;
+	color: #F64747;
+	background: #ecf0f1;
+}
+.student_input:focus::-webkit-input-placeholder {
+	font-family: Lato-Light;
+	font-size: 40px;
+	color: #95A5A6;
+}
+.enter_query {
+	position: absolute;
+	width: 40%;
+	left: 30%;
+	top: 42.5%;
+	background-color: #EEEEEE;
+	height: 0px;
+}
+.enter_query h3 {
+	display: none;
+	margin-top: 20px;
+	font-size: 35px;
+	color: #e74c3c;
+}
+.mini_input {
+	display: none;
+	width: 65%;
+	margin-left: 15%;
+	margin-top: 15px;
+	color: white;
+	font-family: Lato-Light;
+	background-color: #e74c3c;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 28.5px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 0.75%;
+	padding-bottom: 0.75%;
+	border: none;
+}
+.mini_input:focus {
+	outline: none;
+}
+.mini_input::-webkit-input-placeholder {
+	color: white;
+}
+#stoic_reaction_final {
+	text-align: center;
+	color: #e74c3c;
+	font-size: 15px;
+	font-family: Lato-Light;
+	margin-bottom: -25px;
+}
+#stoic_calculation_final {
+	margin-bottom: 2px;
+	text-align: center;
+	color: #e74c3c;
+	font-size: 20px;
+	font-family: Lato-Light;
+}
+.output {
+	font-family: Lato-Light;
+	color: #ecf0f1;
+	cursor: default;
+	font-size: 35px;
+	position: absolute;
+	text-align: center;
+	width: 25%;
+	left: 37.5%;
+	top: 55%;
+}
